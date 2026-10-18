@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-A collection of LeetCode solutions organized by problem number and title. The repository focuses on readable implementations, efficient algorithms, and concise notes about the approach and complexity.
+A collection of LeetCode solutions organized by problem number and title. The repository focuses on readable implementations, efficient algorithms, and concise notes about approach and complexity.
 
 ## Solutions
 
@@ -15,7 +15,7 @@ A collection of LeetCode solutions organized by problem number and title. The re
 | 21 | Merge Two Sorted Lists | Two pointers | O(m+n) | O(1) |
 | 26 | Remove Duplicates from Sorted Array | Two pointers | O(n) | O(1) |
 | 35 | Search Insert Position | Binary search | O(log n) | O(1) |
-| 36 | Valid Sudoku | Sets / constraint checking | O(1) for 9x9 | O(1) |
+| 36 | Valid Sudoku | Constraint checking | O(1) for 9x9 | O(1) |
 | 49 | Group Anagrams | Frequency hashing | O(n × k) | O(n × k) |
 | 53 | Maximum Subarray | Kadane's algorithm | O(n) | O(1) |
 | 70 | Climbing Stairs | Dynamic programming | O(n) | O(1) |
@@ -39,7 +39,7 @@ A collection of LeetCode solutions organized by problem number and title. The re
 | 217 | Contains Duplicate | Hash set | O(n) | O(n) |
 | 219 | Contains Duplicate II | Index map | O(n) | O(n) |
 | 226 | Invert Binary Tree | DFS | O(n) | O(h) |
-| 238 | Product of Array Except Self | Prefix/suffix products | O(n) | O(1) output extra |
+| 238 | Product of Array Except Self | Prefix/suffix products | O(n) | O(1) extra |
 | 242 | Valid Anagram | Character counts | O(n) | O(1) for fixed alphabet |
 | 268 | Missing Number | Arithmetic sum | O(n) | O(1) |
 | 283 | Move Zeroes | Two pointers | O(n) | O(1) |
@@ -56,16 +56,15 @@ A collection of LeetCode solutions organized by problem number and title. The re
 | 733 | Flood Fill | DFS | O(rows × cols) | O(rows × cols) worst case |
 | 876 | Middle of the Linked List | Slow/fast pointers | O(n) | O(1) |
 | 1480 | Running Sum of 1d Array | Prefix accumulation | O(n) | O(1) extra |
-| 3005 | Count Elements With Maximum Frequency | Frequency counting | O(n) | O(u) |
 
-> Complexity notes are approximate and depend on input constraints. Here, n is the input size, k is a maximum word length or number of distinct characters as applicable, u is the number of distinct values, and h is tree height.
+> Complexity notes are approximate and depend on input constraints. Here, n is input size, k is a maximum word length or distinct-character count as applicable, u is the number of distinct values, and h is tree height.
 
 ## Repository conventions
 
 - Each solution is stored in its own file named with the LeetCode problem number and title.
 - Prefer clear, efficient approaches and include time and space complexity where useful.
-- Python files that include assertion examples can be run directly with Python 3.
-- Linked-list and tree problems include local node definitions where useful for standalone examples; LeetCode accepts its provided node types as well.
+- Python files with assertion examples can be run directly with Python 3.
+- Linked-list and tree problems include local node definitions where useful for standalone examples.
 
 ## Running Python examples
 
