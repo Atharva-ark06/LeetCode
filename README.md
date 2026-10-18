@@ -7,9 +7,7 @@ A collection of LeetCode solutions organized by problem number and title. The re
 
 > Complexity notes are approximate and depend on input constraints. Here, n is input size, k is a maximum word length or distinct-character count as applicable, u is the number of distinct values, and h is tree height.
 
-## Repository conventions
-
-- Filenames use four-digit zero-padding (for example, `0001. Two Sum.py`) so GitHub's alphabetical file listing follows ascending problem-number order.
+## Repository conventionHub's alphabetical file listing follows ascending problem-number order.
 - Each solution is stored in its own file and keeps its original LeetCode problem number in the filename.
 - Prefer clear, efficient approaches and include time and space complexity where useful.
 - Python files with assertion examples can be run directly with Python 3.
