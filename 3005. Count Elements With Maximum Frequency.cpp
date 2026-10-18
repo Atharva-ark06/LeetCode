@@ -17,9 +17,10 @@ public:
 
         int total = 0;
         // sum occurrences of elements with max frequency
-        for (auto& [key, val] : freq) {
-            if (val == maxFreq) {
-                total += val;
+        // Use entry.second instead of structured bindings for C++14 compatibility.
+        for (const auto& entry : freq) {
+            if (entry.second == maxFreq) {
+                total += entry.second;
             }
         }
         return total;
