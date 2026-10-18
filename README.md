@@ -2,42 +2,34 @@
 <div align="center">
 
 # LeetCode Solutions
-olor=white)
-![Focus](https://img.shields.io/badge/Focus-DSA%20%26%20Algorithms-7C3AED?style=flat-square)
+
+**A collection of algorithmic problem solutions.**
+
+A structured repository of LeetCode solutions, organized by problem number for easy navigation, reference, and code review.
 
 <br>
 
-[LeetCode Profile](https://leetcode.com/) · [GitHub Profile](https://github.com/Atharva-ark06)
+![Problems](https://img.shields.io/badge/Solutions-50-blue?style=flat-square)
+![Python](https://img.shields.io/badge/Python-Primary%20Language-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-Also%20Used-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+<br>
+
+[GitHub Profile](https://github.com/Atharva-ark06) · [LinkedIn](https://www.linkedin.com/in/atharvakulkarniark/)
 
 </div>
 
 ---
 
-## About This Repository
+## Overview
 
-This repository documents my progress in solving algorithmic problems on LeetCode.
+This repository contains solutions to selected LeetCode problems implemented in Python and C++.
 
-Rather than collecting solutions alone, I use it to strengthen my understanding of data structures, algorithms, edge cases, and the trade-offs involved in different approaches.
-
-Each solution is organized by its LeetCode problem number and title, making it easier to find specific problems and revisit concepts during revision.
-
-## What I'm Practicing
-
-- **Arrays and Strings** — traversal, searching, and manipulation
-- **Hashing** — hash maps, sets, and frequency counting
-- **Two Pointers and Sliding Window** — efficient sequence processing
-- **Binary Search** — search strategies and boundary conditions
-- **Linked Lists** — pointer manipulation and list traversal
-- **Stacks and Queues** — managing ordered operations
-- **Trees and Binary Trees** — recursion and tree traversal
-- **Dynamic Programming** — breaking problems into reusable subproblems
-- **Sorting and Greedy Algorithms** — ordering, optimization, and decision-making
-
-These topics reflect the areas covered by the current collection and my ongoing practice.
+The files are organized using a consistent numerical naming convention to make individual solutions easy to locate, review, and reference. The repository serves as a coding archive, with an emphasis on readable implementations and straightforward organization.
 
 ## Repository Structure
 
-Solution files are stored in the root directory and named using the following convention:
+Solutions are stored in the root directory and named using the following convention:
 
 `<four-digit-problem-number>. <problem-title>.<extension>`
 
@@ -52,51 +44,37 @@ Examples:
 3005. Count Elements With Maximum Frequency.cpp
 ```
 
-Four-digit numbering keeps the files in numerical order when sorted alphabetically. Existing file extensions are retained.
-
-## My Approach
-
-For each problem, I aim to:
-
-1. Understand the problem statement and constraints.
-2. Identify a suitable algorithm or data structure.
-3. Consider edge cases and alternative approaches.
-4. Analyze time and space complexity.
-5. Test the implementation with representative inputs.
-6. Refine the solution when a clearer or more efficient approach is available.
-
-The goal is not just to get accepted, but to understand **why a solution works** and when the same technique can be applied elsewhere.
+Four-digit numbering keeps files in numerical order when sorted alphabetically. Original file extensions are preserved.
 
 ## Languages and Tools
 
-- **Python** — primary language for algorithm practice
-- **C++** — used for selected problems
-- **Git and GitHub** — version control and tracking progress
-- **LeetCode** — problem-solving and practice
+- **Python** — solutions for selected problems
+- **C++** — solutions for selected problems
+- **Git and GitHub** — version control and repository management
+- **LeetCode** — source of the coding problems
 
-## Progress and Future Goals
+## Code Organization
 
-This repository will continue to grow as I solve more problems and revisit earlier solutions.
+- Each solution is maintained in an individual file.
+- Filenames include the original problem number and title.
+- Consistent naming makes solutions easier to locate.
+- Existing solution logic is kept separate from repository documentation.
 
-My next goals are to:
+## About Me
 
-- Build stronger foundations in data structures and algorithms.
-- Practice more medium- and hard-level problems.
-- Explore alternative approaches and optimize solutions.
-- Improve code readability and consistency.
-- Use the concepts learned in problem-solving, technical interviews, and software development.
+I'm a Computer Science and Engineering student specializing in Information Security at G M University.
+
+My primary interests are cybersecurity, information security, AI/ML, and security-focused software development. This repository is a supplementary collection of coding solutions rather than the main focus of my technical work.
 
 ## Connect
 
-I'm a Computer Science and Engineering student specializing in Information Security, interested in software development, AI/ML, and cybersecurity.
-
 - **GitHub:** [Atharva-ark06](https://github.com/Atharva-ark06)
-- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/atharvakulkarniark/)
+- **LinkedIn:** [Atharva Kulkarni](https://www.linkedin.com/in/atharvakulkarniark/)
 
 ---
 
 <div align="center">
 
-*Learn consistently. Think critically. Improve with every problem.*
+*Clean code. Clear structure. Practical reference.*
 
 </div>
