@@ -2,15 +2,7 @@
 <div align="center">
 
 # LeetCode Solutions
-
-**A consistent practice of problem-solving, one question at a time.**
-
-Solutions to LeetCode problems implemented primarily in Python, with an emphasis on understanding algorithms, writing clean code, and improving problem-solving skills.
-
-<br>
-
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-50-blue?style=flat-square)
-![Language](https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+olor=white)
 ![Focus](https://img.shields.io/badge/Focus-DSA%20%26%20Algorithms-7C3AED?style=flat-square)
 
 <br>
