@@ -61,7 +61,8 @@ A collection of LeetCode solutions organized by problem number and title. The re
 
 ## Repository conventions
 
-- Each solution is stored in its own file named with the LeetCode problem number and title.
+- Filenames use four-digit zero-padding (for example, `0001. Two Sum.py`) so GitHub's alphabetical file listing follows ascending problem-number order.
+- Each solution is stored in its own file and keeps its original LeetCode problem number in the filename.
 - Prefer clear, efficient approaches and include time and space complexity where useful.
 - Python files with assertion examples can be run directly with Python 3.
 - Linked-list and tree problems include local node definitions where useful for standalone examples.
@@ -69,10 +70,10 @@ A collection of LeetCode solutions organized by problem number and title. The re
 ## Running Python examples
 
 ```bash
-python "3. Longest Substring Without Repeating Characters.py"
-python "49. Group Anagrams.py"
-python "53. Maximum Subarray.py"
-python "733. Flood Fill.py"
+python "0003. Longest Substring Without Repeating Characters.py"
+python "0049. Group Anagrams.py"
+python "0053. Maximum Subarray.py"
+python "0733. Flood Fill.py"
 ```
 
 These examples are lightweight sanity checks, not a substitute for running full test cases on LeetCode.
