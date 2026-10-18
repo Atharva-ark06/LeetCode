@@ -1,0 +1,36 @@
+"""
+LeetCode 125 — Valid Palindrome
+
+Approach: Use two pointers moving inward. Skip non-alphanumeric
+characters and compare the remaining characters without case sensitivity.
+A mismatch means the string is not a palindrome.
+
+Time: O(n).
+Space: O(1) extra space.
+"""
+
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        left, right = 0, len(s) - 1
+
+        while left < right:
+            while left < right and not s[left].isalnum():
+                left += 1
+            while left < right and not s[right].isalnum():
+                right -= 1
+
+            if s[left].lower() != s[right].lower():
+                return False
+
+            left += 1
+            right -= 1
+
+        return True
+
+
+if __name__ == "__main__":
+    solution = Solution()
+    assert solution.isPalindrome("A man, a plan, a canal: Panama") is True
+    assert solution.isPalindrome("race a car") is False
+    assert solution.isPalindrome(" ") is True
+    print("All sample tests passed.")
